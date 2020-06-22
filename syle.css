@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #5d5a5a;
+}
+
+.main-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.main-content > button{
+    border: none;
+    border-radius: 5px;
+    width: 10vw;
+    height: 10vh;
+}
