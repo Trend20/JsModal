@@ -34,4 +34,11 @@ body{
     width: 30%;
     height: 40vh;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1ccddd;
+    visibility: hidden;
 }
+
