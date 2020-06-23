@@ -30,15 +30,27 @@ body{
 }
 
 #modal{
-    border: 1px solid #fff;
+    border: none;
+    border-radius: 5px;
     width: 30%;
     height: 40vh;
     z-index: 1;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
     background: #1ccddd;
     visibility: hidden;
+    margin-top: 20px;
 }
+
+.modal-btn >button{
+    border: none;
+    border-radius: 10px;
+    width: 7vw;
+    height: 7vh;
+    cursor: pointer;
+    outline: none; 
+}
+
 

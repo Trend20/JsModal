@@ -1,7 +1,7 @@
 const joinBtn = document.getElementById('btn');
 
-joinBtn.addEventListener('click', changeBackgroundColor);
+joinBtn.addEventListener('click', showModal);
 
-function changeBackgroundColor(){
-    document.querySelector('body').style.backgroundColor = 'red';
+function showModal(){
+    document.querySelector('#modal').style.visibility = 'visible';
 }
