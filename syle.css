@@ -12,6 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     min-height: 100vh;
 }
 
@@ -26,4 +27,11 @@ body{
 }
 .main-content > button:hover{
     background: #1ccddd;
+}
+
+#modal{
+    border: 1px solid #fff;
+    width: 30%;
+    height: 40vh;
+    z-index: 1;
 }
