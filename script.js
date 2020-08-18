@@ -9,6 +9,7 @@ function showModal(){
 const response = document.getElementById('response');
 response.addEventListener('click', hideModal);
 
-const hideModal = () =>{
-    document.querySelector('#modal').style.display = 'none';
+
+function hideModal(){
+    document.querySelector('#modal').style.visibility = 'hidden';
 }
